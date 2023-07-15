@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>navbar</title>
+    <!-- Other meta tags, stylesheets, and scripts can be added here -->
+  </head>
+  <body>
 /* SUMMARY
     1. GLOBAL
     2. LAYOUT
@@ -513,4 +520,5 @@
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
-  }
+  }  </body>
+  </html>
