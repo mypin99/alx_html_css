@@ -1,0 +1,159 @@
+styles.css
+/*Global
+================= */
+
+
+/* Banner
+   ================ */
+
+   .banner {
+    background-image: url(../IMAGES/background.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+   }
+
+/* Header
+   ================= */
+   
+   .header {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .logo {
+    font-size: medium;
+    margin: 10px;
+   }
+
+/* Navigation
+   ================= */
+
+   .nav-item a {
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+     } 
+  
+  /*  Main
+     ================= */
+     
+     .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+  
+     h1 {
+        color: white;
+        font-size: 100px;
+        font-weight: 100px;
+     }
+  
+     .main p {
+       color: white;
+       font-size: 50px;
+       font-weight: 50px;
+     }
+  
+      .main button {
+        background-color: purple;
+        color: white;
+        border: none;
+     }
+  
+  /*  Pros Awards 
+     ============== */
+     
+     .pros {
+        text-align: center;
+     }
+  
+     .purple {
+     color: purple;
+     }
+  
+     .white {
+      color: white;
+     }
+  
+     .award {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+     }
+     
+     .Phillip, .Nannie, .Bruce, .Henry{
+        margin-right: 80px;
+     }
+  
+  
+  /* Review
+   ================== */
+  
+   .testimonial {
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+     background-color: purple;  
+   }
+
+   .testimonial img {
+      margin: 80px;
+   }
+
+   .feedback {
+      color: white;
+      margin: 80px;
+   }
+
+   /* Tutorials
+   ================= */
+
+   .tutorial-heading {
+      text-align: center;
+   }
+   
+   .black {
+      color: black;
+   }
+
+   .purple{
+      color: purple;
+   }
+
+   .tutorial {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .Massey {
+      display: flex;
+   }
+
+   .rating {
+      display: flex;
+   }
+
+   /*Free membership
+   =================== */
+
+   .free-membership{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: navy;
+   }
+
+   .membership-heading {
+      text-align: center;
+   }
+
+   .smiley {
+      display: flex;
+   }
+   
+   .free-membership button {
+      background-color: purple;
+      color: white;
+      border: none;
+   }
