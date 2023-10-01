@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" onsubmit="return validatePassword()">
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </li>
+            <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="email" required>
+            </li>
+            <li>
+                <label for="pswd">Password:</label>
+                <input type="password" id="pswd" name="password" required>
+            </li>
+            <li>
+                <label for="confirmpswd">Confirm Password:</label>
+                <input type="password" id="confirmpswd" name="confirmpassword" minlength="8" required>
+            </li>
+            <li>
+                <button type="submit">Submit</button>
+            </li>
+        </ul>
+    </form>
+    <script>
+        const validatePassword = () => {
+            let password = document.getElementById("pswd").value;
+            let confirmPassword = document.getElementById("confirmpswd").value ; 
+            
+            if(password != confirmPassword) {
+            alert("Password mismatch!Please try again.")
+            return false;
+        }
+        return true;
+    };
+    </script>
+</body>
+</html>
